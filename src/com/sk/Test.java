@@ -19,7 +19,10 @@ public class Test {
 			
 		}
 		
-		System.out.println("Reverse:- " + arr);
+		for(int k=0; k < arr.length;k++)
+		{
+			System.out.print(arr[k]+ ",");
+		}
 		
 	}
 
